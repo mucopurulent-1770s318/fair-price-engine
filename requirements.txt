@@ -1,0 +1,16 @@
+# Server
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+httpx>=0.27.0
+
+# Image handling
+Pillow>=10.3.0
+python-multipart>=0.0.9    # multipart form uploads
+
+# Data
+sqlitedict>=2.1.0           # price_sources/cache.py — SQLite key-value store
+
+# Schema validation (reused from handsfree-ai pattern)
+jsonschema>=4.22.0
