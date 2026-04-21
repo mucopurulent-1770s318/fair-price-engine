@@ -1,4 +1,3 @@
-```markdown
 # fair-price-engine
 
 > **Point at anything. Know the real cost. See it in tokens.**
@@ -109,7 +108,7 @@ When Twitter or Discord crawls that URL, the server injects `og:image` meta tags
 ├─────────────────────────────────────────────────────────────────────┤
 │ "You're being charged 74.7M extra Claude tokens for this            │
 │  KALLAX Bookshelf."                                                  │
-│                                                          overpaying 300%  │
+│                                                   overpaying 300%   │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -287,7 +286,7 @@ POST /analyze
   item_json:    (str, optional)    Pre-confirmed ItemIdentification JSON
   ?autoconfirm: (bool)             Skip confidence gate
 
-GET  /og-image?data=BASE64         1200×630 PNG for social sharing
+GET  /og-image?data=BASE64         1200x630 PNG for social sharing
 GET  /leaderboard                  Top 20 most-overpriced items
 POST /leaderboard                  Submit an entry anonymously
 GET  /health                       Server status
@@ -301,4 +300,3 @@ GET  /                             SPA (injects og:image meta when ?result= pres
 MIT. Scan everything. Share the numbers. Make people think twice.
 
 If this saves you $50, consider starring the repo — it costs 16.7M tokens, which is actually a bargain.
-```
